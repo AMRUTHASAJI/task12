@@ -1,0 +1,12 @@
+Steps followed in Task12:
+1. Login into Azure portal to create a virtual VM 
+2. Login into that VM via ssh from the Kali Linux terminal
+3. Cloned the repo from taskten and copied the files in the cloned folder to the root folder of the Apache webserver
+4. Start Apache web server in the cloud
+5. Accessed the cloud VM via the web browser to show the register form page created in taskten
+6. Installed MySql and PHP in cloud VM  and configured them
+7. Created a database, user, and a table named registration
+8. Created required PHP scripts for user registration, to save that data in the database table and to login back as that user
+9. Saved those files into the Apache server's directory
+10.Checked the working of the webpage created
+11. Now the web page is accessible to anyone with the IP of the cloud VM and the entering data can be accessed from the database
